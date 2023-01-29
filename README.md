@@ -12,6 +12,6 @@ The challenges started in January of 2023.
 * CSS
 * JavaScript
 
-##Working on Projects
+## Working on Projects
 
-##Accomplished Projects
+## Accomplished Projects
