@@ -1,4 +1,4 @@
-#Frontend Mentor - QR Code Component Solution
+# Frontend Mentor - QR Code Component Solution
 
 This is my first project on Frontend Mentor challenges. 
 As an entry solution, this is my self-introduction on the site.
@@ -14,15 +14,13 @@ As an entry solution, this is my self-introduction on the site.
 
 
   
-  
-    
 
-#Overview
+# Overview
 
 Currently the project source is only available on github. But in the future
 solutions maybe shared on website, and available to preview them.
 
-#Solution Process
+# Solution Process
 
 ## Technologies:
 
@@ -46,14 +44,14 @@ Any feedbacks are welcome!
 - www.w3schools.com
 - [Developer Mozilla](https://developer.mozilla.org/en-US/)
 
-#Continued Development
+# Continued Development
 
 - First of all practicing the clean code
 - Improve my JavaScript and its frameworks
 - Definetly not only Frontend, but learn backend technologies
 - Solve the challenges, and build my portfolio, from [Frontend Mentor website](https://www.frontendmentor.io)
 
-#Author
+# Author
 Frontend Username: @benipet
 
 # Acknowledgments
