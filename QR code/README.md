@@ -10,7 +10,7 @@ As an entry solution, this is my self-introduction on the site.
   - [Resources](#Resources)
 - [Continued Development](#Continued-Development)
 - [Author](#Author)
-- [Acknoledgments](#Acknowledgments)
+- [Acknowledgments](#Acknowledgments)
 
 
   
