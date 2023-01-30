@@ -4,11 +4,11 @@ This is my first project on Frontend Mentor challenges.
 As an entry solution, this is my self-introduction on the site.
 
 - [Overview](#overview)
-- [Solution Process](#Solution Process)
+- [Solution Process](#Solution-Process)
   - [Technologies](#Technologies)
   - [Issues](#Issues)
   - [Resources](#Resources)
-- [Continued Development](#Continued Development)
+- [Continued Development](#Continued-Development)
 - [Author](#Author)
 - [Acknoledgments](#Acknoledgments)
 
