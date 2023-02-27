@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        * {
+            font-family: Outfit;
+        }
+
+        body {
+            background-color: #0D192B;
+        }
+
+        h1 {
+            font-weight: 600;
+        }
+
+            h1 + p {
+                font-size: 1.3em;
+            }
+
+        p {
+            color: #8BACDA;
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+       a:hover {
+          color: #00FFF6;
+       }
+
+        .bright {
+            color: #00FFF6;
+            font-weight: 400;
+        }
+
+        hr {
+            border: 1px solid #2F415B;
+        }
+
+        .wrp {
+            width: 100%;
+            height: 346px;
+        }
+
+            .wrp > a, img {
+                border-radius: 10px;
+            }
+
+            .wrp > img {
+                position: relative;
+                float: left;
+                width: 100%;
+            }
+
+            .wrp > a {
+                position: relative;
+                top: 0%;
+                display: block;
+                width: 100%;
+                height: 98%;
+            }
+
+        .eye {
+            position: relative;
+            z-index: -1;
+            top: -60%;
+            left: 43%;
+        }
+
+        .wrp > a:hover .eye {
+            z-index: 1
+        }
+
+        .wrp > a:hover {
+            background: rgba(0,255,246,0.6);
+        }
+
+        .nft {
+            position:relative;
+            left:35%;
+            width: 340px;
+            height: 674px;
+            padding: 20px;
+            background-color: #14253D;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px 20px #0C1729;
+        }
+
+        .left-float {
+            width: 50%;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .ico {
+            display: block;
+            float: left;
+        }
+
+        .ico-left {
+            width: 9px;
+            height: 16px;
+            margin-right: 5px;
+        }
+
+        .ico-avatar {
+            width: 42px;
+            margin-right: 10px;
+            margin-top: 16px;
+            border: 1px solid white;
+            border-radius: 40px;
+        }
+
+        .creator {
+            margin-top: 26px
+        }
+
+        .attribution {
+            margin-top:32px;
+            font-size: 11px;
+            text-align: center;
+            color:#fff
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nft">
+        <div class="wrp">
+
+            <img alt="" src="images/image-equilibrium.jpg" />
+            <a href=""><svg class="eye" width="48" height="48" xmlns="http://www.w3.org/2000/svg" class="eye"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z" /><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero" /></g></svg></a>
+        </div>
+        <h1><a href="">Equilibrium #3429</a></h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <p class="left-float bright"><img alt="" src="images/icon-ethereum.svg" class="ico-left" />0.041 ETH</p>
+        <p class="left-float right-align"><img alt="" src="images/icon-clock.svg" />3 days left</p>
+        <hr />
+        <img alt="" src="images/image-avatar.png" class="ico ico-avatar" /><p class="ico creator">Creation of <a href="">Jules Wyvern</a></p>
+    </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Peter Benis</a>.
+  </div>
+</body>
+</html>
