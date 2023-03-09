@@ -3,7 +3,7 @@
     #nftcard,
     .attribution {
         width: 327px;
-        height: 546px;
+        height: 600px;
         padding: 20px;
     }
 
@@ -19,7 +19,7 @@
     #nftcard,
     .attribution {
         width: 355px;
-        height: 604px;
+        height: 620px;
         padding: 25px;
     }
 
@@ -72,7 +72,7 @@ aside {
         margin-right: 8px;
     }
 
-#rightside img {
+#deadline img {
     margin-left: 40%;
 }
 
@@ -126,8 +126,7 @@ body {
 }
 
 #nftcard,
-p
-{
+p {
     background: #15273F;
     color: #8BACDA;
 }
