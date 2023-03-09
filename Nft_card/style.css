@@ -1,0 +1,159 @@
+/*mobile layout*/
+@media (width<600px) {
+    #nftcard,
+    .attribution {
+        width: 327px;
+        height: 546px;
+        padding: 20px;
+    }
+
+
+    header,
+    header > img {
+        width: 100%;
+        height: 327px;
+    }
+}
+/*desktop*/
+@media (width>600px) {
+    #nftcard,
+    .attribution {
+        width: 355px;
+        height: 604px;
+        padding: 25px;
+    }
+
+    header,
+    header > img {
+        width: 100%;
+        height: 355px;
+    }
+}
+
+/*|| The header Image layout*/
+.eye {
+    position: relative;
+    top: -101%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+    .eye > img {
+        position: relative;
+        top: 40%;
+        left: 44%;
+    }
+
+/*|| The Section Layout*/
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left-float {
+    float: left;
+    /*
+            width: 50%;
+            height: 20px;
+            */
+}
+
+aside {
+    width: 50%;
+    float: left;
+}
+
+    aside img {
+        float: left;
+        display: block;
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+
+#rightside img {
+    margin-left: 40%;
+}
+
+/*|| Footer Layout*/
+
+footer {
+    margin-top: 15px;
+}
+
+    footer > p, .avatar {
+        float: left;
+    }
+
+.avatar {
+    display: block;
+    width: 37px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+/*|| Typography*/
+body {
+    font-family: Outfit;
+}
+
+/*removes the decoration from related links*/
+.nodecor, .attribution a {
+    text-decoration: none;
+    color: white;
+}
+
+/*select the left-float attributes and change its color to cyan, only one element includes only-this class*/
+p[class|="left-float"] {
+    color: #00FFF6;
+}
+
+/*Align right the due date*/
+.align-right {
+    text-align: right;
+}
+
+/*|| Colors*/
+body {
+    background: #0D192B;
+}
+
+#nftcard {
+    box-shadow: 5px 5px 10px 20px #0C1729;
+}
+
+#nftcard,
+p,
+.attribution {
+    background: #0E192A;
+    color: #8BACDA;
+}
+
+hr {
+    border: 1px solid #2F415B;
+}
+
+#nftcard,
+#equiblirium > img, a {
+    border-radius: 10px;
+}
+
+
+/*|| States of Links and the header image */
+
+/*we change the eye index for -1*/
+.eye > img {
+    z-index: -1;
+}
+
+.eye:hover {
+    z-index: 1;
+    background: rgba(0,255,246,0.6);
+}
+
+/*change the colors of the anchor with mouse over*/
+a:hover {
+    color: #00FFF6;
+}
